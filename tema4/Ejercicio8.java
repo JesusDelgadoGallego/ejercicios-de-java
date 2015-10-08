@@ -2,7 +2,7 @@
 * Sentencia múltiple (switch)
 * Amplía el programa anterior para que diga la nota del boletín 
 * (insuficiente, suficiente, bien,notable o sobresaliente).
-* @author Alfonso Planas Guerrero
+* @author Francisco Jesús Delgado Gallego
 */
 public class Ejercicio8 {
   public static void main(String[] args) {

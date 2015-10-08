@@ -4,7 +4,7 @@
 * Escribe un programa que pida por teclado un día de la semana y que 
 * diga qué asignatura toca a primera hora ese día.
 *
-* @author Alfonso Planas Guerrero
+* @author Jesús Delgado Gallego
 */
 public class Ejercicio1 {
   public static void main(String[] args) {
@@ -16,27 +16,27 @@ public class Ejercicio1 {
       case "lunes":
         //sigue abajo
       case "1":
-        nombreDeLaAsignatura= "Asignatura lunes";
+        nombreDeLaAsignatura= "FOL";
         break;
       case "martes":
         //sigue abajo
       case "2":
-        nombreDeLaAsignatura= "Asignatura martes";
+        nombreDeLaAsignatura= "PROGRAMACIÓN";
         break;
       case "miercoles":
         //sigue abajo
       case "3":
-        nombreDeLaAsignatura= "Asignatura miercoles";
+        nombreDeLaAsignatura= "SISTEMAS INFORMÁTICOS";
         break;
       case "jueves":
         //sigue abajo
       case "4":
-        nombreDeLaAsignatura= "Asignatura jueves";
+        nombreDeLaAsignatura= "PROGRAMACIÓN";
         break;
       case "viernes":
         //sigue abajo
       case "5":
-        nombreDeLaAsignatura= "Asignatura viernes";
+        nombreDeLaAsignatura= "BASE DE DATOS";
         break;
 
       default:

@@ -3,7 +3,7 @@
 * 
 * Escribe un programa que ordene tres números enteros introducidos por teclado.
 * 
-* @author Alfonso Planas Guerrero
+* @author Francisco Jesús Delgado Gallego
 */
 public class Ejercicio13 {
   public static void main(String[] args) {

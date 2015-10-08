@@ -4,7 +4,7 @@
 Realiza un programa que nos diga cuántos dígitos tiene un número entero que puede ser
 positivo o negativo. Se permiten números de hasta 5 dígitos..
 * 
-* @author Alfonso Planas Guerrero
+* @author Francisco Jesús Delgado Gallego
 */
 public class Ejercicio19 {
   public static void main(String[] args) {

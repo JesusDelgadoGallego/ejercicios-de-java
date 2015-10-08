@@ -1,7 +1,7 @@
 /**
 * Escribe un programa que dada una hora determinada (horas y minutos), calcule los 
 * segundos que faltan para llegar a la medianoche.
-* @author Alfonso Planas Guerrero
+* @author Francisco Jesús Delgado Gallego
 */
 public class Ejercicio11 {
   public static void main(String[] args) {

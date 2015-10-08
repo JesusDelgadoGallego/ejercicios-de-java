@@ -7,7 +7,7 @@
  * no suman puntos. Utiliza el fichero test_infidelidad.txt para obtener
  * las preguntas y las conclusiones del programa.
  * 
-* @author Alfonso Planas Guerrero
+* @author Francisco Jesús Delgado Gallego
 */
 public class Ejercicio16 {
   public static void main(String[] args) {

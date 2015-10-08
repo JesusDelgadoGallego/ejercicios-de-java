@@ -2,7 +2,7 @@
 * Sentencia múltiple (switch)
 * Escribe un programa que nos diga el horóscopo a partir del día y el mes de nacimiento.
 * 
-* @author Alfonso Planas Guerrero
+* @author Francisco Jesús Delgado Gallego
 */
 public class Ejercicio10 {
   public static void main(String[] args) {

@@ -7,7 +7,7 @@
  * lo hagan para ver qué tal andan de conocimientos en las diferentes 
  * asignaturas del curso.
  * 
-* @author Alfonso Planas Guerrero
+* @author Francisco Jesús Delgado Gallego
 */
 public class Ejercicio12 {
   public static void main(String[] args) {

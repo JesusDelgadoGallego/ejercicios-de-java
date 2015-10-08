@@ -3,7 +3,7 @@
  * Realiza un programa que resuelva una ecuación de segundo grado
  * (del tipo ax 2 + bx + c =0).
  * X= (-b+-Math.sqrt(b*b-4ac))/2a
- * @author Alfonso Planas Guerrero
+ * @author Francisco Jesús Delgado Gallego
  */
 public class Ejercicio9 {
   public static void main(String[] args) {

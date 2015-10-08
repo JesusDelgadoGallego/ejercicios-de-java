@@ -1,7 +1,7 @@
 /**
 * Sentencia múltiple (switch)
 * Realiza un programa que calcule la media de tres notas.
-* @author Alfonso Planas Guerrero
+* @author Francisco Jesús Delgado Gallego
 */
 public class Ejercicio7 {
   public static void main(String[] args) {

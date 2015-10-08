@@ -5,7 +5,7 @@
 * símbolo como *, +, -, $, &, etc. El programa debe permitir al usuario 
 * mediante un menú elegir si el vértice de la pirámide está apuntando
 * hacia arriba, hacia abajo, hacia la izquierda o hacia la derecha.
-* @author Alfonso Planas Guerrero
+* @author Francisco Jeśus Delgado Gallego
 */
 public class Ejercicio15 {
   public static void main(String[] args) {

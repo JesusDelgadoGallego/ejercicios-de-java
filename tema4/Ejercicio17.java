@@ -4,7 +4,7 @@
 * Escribe un programa que diga cuál es la última cifra de un número 
 * entero introducido por teclado.
 * 
-* @author Alfonso Planas Guerrero
+* @author Francisco Jesús Delgado Gallego
 */
 public class Ejercicio17 {
   public static void main(String[] args) {

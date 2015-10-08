@@ -4,7 +4,7 @@
 * Escribe un programa que diga cuál es la primera cifra de un número 
 * entero introducido por teclado. Se permiten números de hasta 5 cifras.
 * 
-* @author Alfonso Planas Guerrero
+* @author Francisco Jesús Delgado Gallego
 */
 public class Ejercicio20 {
   public static void main(String[] args) {
