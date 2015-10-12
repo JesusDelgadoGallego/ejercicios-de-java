@@ -14,23 +14,23 @@ public class Ejercicio8 {
     System.out.println("Por favor, introduzca su tercera nota");
     double c = Double.parseDouble(System.console().readLine());
     double media = ((a + b + c)/3);
-    if ((media >= 0) && (media <= 10)) {
-      System.out.printf("Su nota media es de %.2f", media);
-    } else {
-      System.out.println("Las notas introducidas no son correctas");
-    }   
-    if ((media >= 0) && (media < 5)) {
+    if ((a >= 0) && (a <= 10) && 
+       (b >= 0) && (b <= 10) &&
+       (c >= 0) && (c <= 10)) {
+      System.out.printf("Su nota media es de %.2f. ", media);
+      if ((media >= 0) && (media < 5)) {
       System.out.println("Y su calicicacion de su boletin es de Insuficiente");
-    } else if ((media >= 5) && (media < 6)){
+      } if ((media >= 5) && (media < 6)){
       System.out.println("Y su calicicacion de su boletin es de Sucifiente");
-    } else if ((media >= 6) && (media < 7)){
+      } if ((media >= 6) && (media < 7)){
       System.out.println("Y su calicicacion de su boletin es de Bien");
-    } else if ((media >= 7) && (media < 9)){
+      } if ((media >= 7) && (media < 9)){
       System.out.println("Y su calicicacion de su boletin es de Notable");
-    } else if ((media >= 9) && (media <= 10)){
+      } if ((media >= 9) && (media <= 10)){
       System.out.println("Y su calicicacion de su boletin es de Sobresaliente");
+      } 
     } else {
-      System.out.println("No se puede obtener nota de boletin");
-    }     
+      System.out.println("Las notas introducidas no son correctas.");
+      }
   }
 }

@@ -13,10 +13,13 @@ public class Ejercicio7 {
     System.out.println("Por favor, introduzca su tercera nota");
     double c = Double.parseDouble(System.console().readLine());
     double media = ((a + b + c)/3);
-    if ((media >= 0) && (media <= 10)) {
+    if ((a >= 0) && (a <= 10) && 
+       (b >= 0) && (b <= 10) &&
+       (c >= 0) && (c <= 10)) {
       System.out.printf("Su nota media es de %.2f", media);
     } else {
-      System.out.println("Las notas introducidas no son correctas");
+      System.out.print("Las notas introducidas no son correctas.");
+      System.out.println(" Introduce notas comprendidas entre 0 y 10");
     }    
   }
 }

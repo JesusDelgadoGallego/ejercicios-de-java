@@ -61,36 +61,30 @@ public class Ejercicio12 {
     System.out.println("d | Respuesta incorrecta");
     String pregunta8 = System.console().readLine();
     int p1=0;
-    int p2=0;
-    int p3=0;
-    int p4=0;
-    int p5=0;
-    int p6=0;
-    int p7=0;
-    int p8=0;
+
     if (pregunta1.equals("a")){
       p1 = 1;
     } if (pregunta2.equals("b")) {
-      p2= 1;
+      p1++;
     } 
     if (pregunta3.equals("c")) {
-      p3= 1;
+      p1++;
     } 
     if (pregunta4.equals("d")) {
-      p4= 1;
+      p1++;
     } 
     if (pregunta5.equals("d")) {
-      p5= 1;
+      p1++;
     } 
     if (pregunta6.equals("c")) {
-      p6= 1;
+      p1++;
     } 
     if (pregunta7.equals("b")) {
-      p7= 1;
+      p1++;
     } 
     if (pregunta8.equals("a")) {
-      p8= 1;
+      p1++;
     }
-  System.out.println("Su puntuancion es de " + (p1 + p2 + p3 + p4 + p5 + p6 + p7 + p8));      
+  System.out.println("Su puntuancion es de " + p1);      
   }
 }

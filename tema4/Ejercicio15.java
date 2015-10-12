@@ -10,7 +10,6 @@
 public class Ejercicio15 {
   public static void main(String[] args) {
     String linea;
-    int eurosPorHora= 12;
     System.out.println("Bienvenido al programa de construccion de piramides.");
     System.out.println("Por favor, introduzca el simbolo, numero o caracter que del\nque quiere que la piramide este formada");
     String x =System.console().readLine();

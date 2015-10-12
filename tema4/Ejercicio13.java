@@ -15,26 +15,22 @@ public class Ejercicio13 {
     System.out.println("Introduzca tercer numero:");
     int n3 = Integer.parseInt(System.console().readLine());
     
-    if ((n1>=n2) && (n1>=n3)) {
-      System.out.print(n1);
-    } else if ((n2>=n1) && (n2>=n3)){
-      System.out.print(n2);
-    } else if ((n3>=n1) && (n3>=n2)){
-      System.out.print(n3);
+    int aux = n1;
+    
+    if ( n1 < n2) {
+      n1 = n2;
+      n2 = aux;
     }
-    if (((n2>=n1) && (n3<=n1)) || ((n3>=n1) && (n2<=n1))) {
-      System.out.print(">" + n1);
-    } else if (((n1>=n2) && (n3<=n2)) || ((n3>=n2) && (n1<=n2))){
-      System.out.print(">" + n2);
-    } else if (((n2>=n3) && (n1<=n3)) || ((n2>=n3) && (n1<=n3))){
-      System.out.print(">" + n3);
-    }    
-    if ((n1<=n2) && (n1<=n3)) {
-      System.out.print(">" + n1);
-    } else if ((n2<=n1) && (n2<=n3)){
-      System.out.print(">" + n2);
-    } else if ((n3<=n1) && (n3<=n2)){
-      System.out.print(">" + n3);
+    if (n2 < n3 ) {
+      aux = n2;
+      n2 = n3;
+      n3 = aux;
     }
+    if ( n1 < n2) {
+      aux = n1;
+      n1 = n2;
+      n2 = aux;
+    }
+    System.out.println(n1 + " es mayor que " + n2 + ", que a su vez es mayor que " + n3 + " .");
   }
 }
