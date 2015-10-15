@@ -10,7 +10,7 @@ public class Ejercicio18 {
   public static void main(String[] args) {
     System.out.println("Por favor, introduzca un numero entero de hasta 5 cifras");
     int x = Integer.parseInt(System.console().readLine());
-    if (x>=1000000){
+    if (x>=100000){
       System.out.println("lo sentimos, solo numeros de hasta 5 cifras ");
     } else if (x<=9){
       System.out.println("la primera cifra de su numero es " +x);
