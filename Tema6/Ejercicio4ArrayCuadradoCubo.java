@@ -17,7 +17,7 @@ public class Ejercicio4ArrayCuadradoCubo {
     double[] cuadrado= new double[20];
     double[] cubo= new double[20];
     
-    System.out.println("Este programa genera 20 números aleatorios entre 0 y 100 y muestra su cuadrado y su cubo");
+    System.out.println("Este programa genera 20 números aleatorios entre 0 y 100 y muestra su cuadrado y su cubo:");
     
     for (int i = 0; i <= 19; i++) {
       

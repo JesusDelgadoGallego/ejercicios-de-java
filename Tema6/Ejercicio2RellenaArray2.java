@@ -11,16 +11,16 @@
 public class Ejercicio2RellenaArray2 {
   public static void main(String[] args){
     
-    String[] simbolo = new String[10];
+    char[] simbolo = new char[10];
     
-    simbolo[0]= "'a'";
-    simbolo[1]= "'x'";
-    simbolo[4]= "'@'";
-    simbolo[6]= "' '";
-    simbolo[7]= "'+'";
-    simbolo[8]= "'Q'";
+    simbolo[0]= 'a';
+    simbolo[1]= 'x';
+    simbolo[4]= '@';
+    simbolo[6]= ' ';
+    simbolo[7]= '+';
+    simbolo[8]= 'Q';
     
-    for (String n: simbolo) {
+    for (char n: simbolo) {
       
       System.out.println(n + " ");
       

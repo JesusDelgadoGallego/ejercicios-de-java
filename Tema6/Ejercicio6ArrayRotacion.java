@@ -27,6 +27,8 @@ public class Ejercicio6ArrayRotacion {
     
     System.out.println();
     
+    //Rota el array una posición hacia la derecha. La última posición es ahora la primera
+    
     double aux = quinceNumeros[14];
     
     for (int i = 14; i > 0; i-- ){
